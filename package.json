@@ -1,7 +1,10 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "engines": {
+    "node": "10.16.0"
+  },
+ "description": "",
   "main": "index.js",
   "scripts": {
     "start":"node server.js",
@@ -9,7 +12,6 @@
     "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "cd client && npm install && npm run build"
-
   },
   "keywords": [],
   "author": "",
