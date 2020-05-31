@@ -1,0 +1,53 @@
+.container-drag{
+	text-align:center;
+}
+
+.mixtopick{
+	position: relative;
+	width: 150px;
+	height: 100vh;
+	left: 0;
+	top: 10;
+	background-color: black;
+	border-right: 1px dotted; 
+}
+
+.header{
+	display: inline-block;
+	margin: 0;
+	padding: 20px;
+	/*background-color: #E0E0E0;*/
+	width: 100%;
+}
+
+.mix-header{
+	display: inline-block;
+	background-color: white;
+	width: 100%;
+	margin-top: 20px;
+	padding: 20px;
+}
+
+.droppable{
+	position: relative;
+	width: 150px;
+	height: 100vx;
+	right: 0;
+	top: 10;
+	background-color: white;
+	border-left: 1px dotted;
+}
+.draggable{
+
+}
+.right-chosen{
+	background-color:#4e4646
+}
+
+form{
+	display:contents; 
+}
+
+form>label{
+	color:white;
+}
