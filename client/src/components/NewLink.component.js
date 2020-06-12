@@ -1,4 +1,4 @@
-// NewPost.js
+
 import { connect } from 'react-redux';
 import { createLink } from '../actions';
 import React from 'react';
